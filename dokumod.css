@@ -1,0 +1,2053 @@
+.dokucss .desc,
+.dokucss p {
+    line-height: 18px
+}
+.dokucss ol,
+.dokucss td,
+.dokucss tr,
+.dokucss ul {
+    padding: 0
+}
+.dokucss img,
+.dokucss input {
+    border: none
+}
+.dokucss .clear,
+.dokucss .doku-wrap .clear {
+    clear: both
+}
+.dokucss .font-reg,
+.dokucss body {
+    font-family: din-reg, arial
+}
+.dokucss a.default-btn,
+.dokucss aside,
+.dokucss details,
+.dokucss figcaption,
+.dokucss figure,
+.dokucss footer,
+.dokucss header,
+.dokucss hgroup,
+.dokucss menu,
+.dokucss nav,
+.dokucss section {
+    display: block
+}
+.dokucss #dw-channel ul,
+.dokucss .doku-wrap #dw-channel ul,
+.dokucss ol,
+.dokucss ul {
+    list-style: none
+}
+.dokucss .cmn-toggle,
+.dokucss .remodal,
+[data-remodal-id] {
+    visibility: hidden
+}
+.dokucss #dw-channel .nav,
+.dokucss .nameuser,
+.dokucss .styled-select select,
+.dokucss body.remodal_lock,
+.dokucss html.remodal_lock,
+.dokucss select {
+    overflow: hidden
+}
+.dokucss .doku-wrap a,
+.dokucss .doku-wrap input,
+.dokucss .doku-wrap select,
+.dokucss a,
+.dokucss input,
+.dokucss input:focus,
+.dokucss select,
+.dokucss textarea:focus {
+    outline: 0
+}
+.dokucss * {
+    margin: 0
+}
+.dokucss aside,
+.dokucss blockquote,
+.dokucss body,
+.dokucss caption,
+.dokucss details,
+.dokucss div,
+.dokucss fieldset,
+.dokucss figcaption,
+.dokucss figure,
+.dokucss footer,
+.dokucss form,
+.dokucss h1,
+.dokucss h2,
+.dokucss h3,
+.dokucss h4,
+.dokucss h5,
+.dokucss h6,
+.dokucss header,
+.dokucss hgroup,
+.dokucss html,
+.dokucss input,
+.dokucss label,
+.dokucss legend,
+.dokucss li,
+.dokucss menu,
+.dokucss nav,
+.dokucss ol,
+.dokucss p,
+.dokucss section,
+.dokucss span,
+.dokucss summary,
+.dokucss ul {
+    margin: 0;
+    padding: 0
+}
+.dokucss ol,
+.dokucss p,
+.dokucss td,
+.dokucss tr,
+.dokucss ul {
+    margin: auto
+}
+.dokucss #container,
+.dokucss #container-outer,
+.dokucss body,
+.dokucss html {
+    height: 100%
+}
+.dokucss body {
+    background: #f4f4f4;
+    overflow-x: hidden
+}
+.dokucss a {
+    color: #b90a29
+}
+.dokucss a:hover {
+    color: #780300
+}
+.dokucss p {
+    color: #666;
+    font-size: 13px;
+    text-align: justify
+}
+.dokucss table {
+    border: 1px solid #dadada;
+    font-size: 12px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff
+}
+.dokucss input {
+    -webkit-appearance: none
+}
+.dokucss input[type=checkbox] {
+    -webkit-appearance: checkbox
+}
+.dokucss .styled-select,
+.dokucss .wrapper-select {
+    background: url(../images/down_arrow_select.png) right center no-repeat;
+    overflow: hidden;
+    width: 170px
+}
+.dokucss .styled-select select,
+.dokucss select {
+    -webkit-appearance: none;
+    background: 0 0;
+    border: 0;
+    width: 190px
+}
+.dokucss #choice option {
+    color: #000
+}
+.dokucss .empty {
+    color: gray
+}
+.dokucss .radius {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+.dokucss .fleft {
+    float: left
+}
+.dokucss .fright {
+    float: right
+}
+.dokucss .padd-default {
+    padding: 20px;
+    position: relative
+}
+.dokucss @font-face {
+    font-family: din;
+    src: url(../fonts/din_light-webfont.eot);
+    src: url(../fonts/din_light-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/din_light-webfont.woff) format('woff'), url(../fonts/din_light-webfont.ttf) format('truetype'), url(../fonts/din_light-webfont.svg#din_light-webfont) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+.dokucss @font-face {
+    font-family: din-reg;
+    src: url(../fonts/dinnextltproregular.eot);
+    src: url(../fonts/dinnextltproregular.eot?#iefix) format('embedded-opentype'), url(../fonts/dinnextltproregular.woff) format('woff'), url(../fonts/dinnextltproregular.ttf) format('truetype'), url(../fonts/dinnextltproregular.svg#din_light-webfont) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+.dokucss ::-moz-placeholder {
+    opacity: 0
+}
+.dokucss ::-webkit-input-placeholder {
+    opacity: 0
+}
+.dokucss :-ms-input-placeholder {
+    opacity: 0
+}
+.dokucss input:-moz-placeholder {
+    opacity: 0
+}
+.dokucss .default-width {
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 0 12px #f2f2f2;
+    margin: 0 auto;
+}
+.dokucss .right-head {
+    font-family: din-reg
+}
+.dokucss .text-totalpay {
+    font-size: 11px;
+    text-align: right
+}
+.dokucss .amount {
+    font-size: 34px
+}
+.dokucss .select-payment-channel {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 12px 20px
+}
+.dokucss .promocontent-dw select,
+.dokucss .select-payment-channel select,
+.dokucss select.resp-tabDrop {
+    color: #6a6a6a;
+    font-size: 18px;
+    padding: 0 15px 0 0;
+    font-family: din-reg
+}
+.dokucss .content-payment-channel ul li {
+    margin: 5px 0 0
+}
+.dokucss .default-btn,
+.dokucss .two-btn {
+    margin-top: 20px
+}
+.dokucss .line {
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 20px
+}
+.dokucss .default-btn {
+    background: #fff;
+    border: 1px solid #b90a29;
+    border-radius: 3px;
+    color: #b90a29;
+    font-size: 18px;
+    padding: 14px 10px;
+    width: 100%;
+    cursor: pointer;
+    font-family: din-reg, arial
+}
+.dokucss a.default-btn {
+    text-align: center;
+    text-decoration: none;
+    width: auto
+}
+.dokucss .default-btn:hover {
+    background: #b90a29;
+    color: #fff
+}
+.dokucss .two-btn a.default-btn,
+.dokucss .two-btn input.default-btn {
+    float: left;
+    font-size: 15px;
+    margin: 0 2%;
+    padding: 3%;
+    width: 40%
+}
+.dokucss .second-btn {
+    border-color: #606c80;
+    color: #606c80
+}
+.dokucss .second-btn:hover {
+    background: #606c80;
+    color: #fff
+}
+.dokucss .two-btn input.default-btn {
+    width: 45%
+}
+.dokucss .two-btn a.default-btn {
+    padding: 3.2% 3%
+}
+.dokucss .styled-input input,
+.dokucss .styled-input input.identified.valid,
+.dokucss .styled-input input.valid,
+.dokucss .styled-input select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 40px;
+    padding: 0 3%;
+    width: 93%;
+    font-family: din-reg, arial;
+    font-size: 15px
+}
+.dokucss .styled-input select {
+    width: 100%
+}
+.dokucss .width60 {
+    width: 68%
+}
+.dokucss .width50 {
+    width: 49%
+}
+.dokucss .width30 {
+    width: 30%
+}
+.dokucss .width25 {
+    width: 23%
+}
+.dokucss .width30.styled-input input {
+    padding: 0 8%;
+    width: 83%
+}
+.dokucss .wrapper-secondstyle-inputbtn input.textinput {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 7px 10px;
+    width: 50%
+}
+.dokucss .wrapper-secondstyle-inputbtn input.default-btn {
+    font-size: 12px;
+    margin-top: 0;
+    padding: 6px 0;
+    width: 100px
+}
+.dokucss .wrapper-othermaterial label {
+    color: #6a6a6a;
+    font-size: 15px;
+    padding: 10px 0 0
+}
+.dokucss .right-paychan {
+    position: absolute;
+    right: 20px;
+    top: -40px
+}
+.dokucss .logo-payment-channel {
+    background: url(../images/logo-payment.png) no-repeat;
+    height: 30px;
+    display: inline-block
+}
+.dokucss .cc {
+    background-position: 0 0;
+    width: 110px
+}
+.dokucss .dokuwallet {
+    background-position: -110px 0;
+    width: 94px
+}
+.dokucss .bcaklikpay {
+    background-position: -204px 0;
+    width: 131px
+}
+.dokucss .mandiriclickpay {
+    background-position: -335px 0;
+    width: 56px
+}
+.dokucss .atm {
+    background-position: -391px 0;
+    width: 126px
+}
+.dokucss .mm {
+    background-position: -517px 0;
+    width: 31px
+}
+.dokucss .epay {
+    background-position: -548px 0;
+    width: 90px
+}
+.dokucss .cimb {
+    background-position: -638px 0;
+    width: 96px
+}
+.dokucss .styled-select {
+    border-radius: 0 3px 3px 0;
+    border-right: 1px solid #ccc
+}
+.dokucss .styled-select select {
+    width: 115%
+}
+.dokucss .content-payment-channel {
+    padding-bottom: 30px
+}
+.dokucss .footer {
+    color: #a0a0a0;
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center
+}
+.dokucss .avatar-dw {
+    top: -53px
+}
+.dokucss .avatar-dw img {
+    border-radius: 40px;
+    width: 45px
+}
+.dokucss .nameuser {
+    height: 20px;
+    margin: 12px 0 0 10px;
+    max-width: 120px;
+    text-align: right
+}
+.dokucss #select-paymentchannel option,
+.dokucss .resp-tabDrop option {
+    font-size: 14px
+}
+.dokucss .readonlycase~label,
+.dokucss input:focus~label,
+.dokucss input:valid~label,
+.dokucss textarea:focus~label,
+.dokucss textarea:valid~label {
+    font-size: .75em;
+    color: #b90a29;
+    top: -13px;
+    -webkit-transition: all 125ms ease;
+    transition: all 125ms ease;
+    padding: 0 5px;
+    background: #fff
+}
+.dokucss .styled-input .readonlycase~label {
+    color: #b90a29;
+    font-size: .75em;
+    top: -13px
+}
+.dokucss .styled-input {
+    position: relative;
+    margin-bottom: 15px
+}
+.dokucss .styled-input label {
+    color: #999;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    pointer-events: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.dokucss .styled-input.wide {
+    width: 100%
+}
+.dokucss input~span,
+.dokucss textarea~span {
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #8e44ad;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 125ms ease;
+    transition: all 125ms ease
+}
+.dokucss input:focus~span,
+.dokucss textarea:focus~span {
+    width: 100%;
+    -webkit-transition: all 75ms ease;
+    transition: all 75ms ease
+}
+.dokucss #dw-channel .list-wrap,
+.dokucss .resp-content__active {
+    padding: 20px;
+    margin: 0
+}
+.dokucss #dw-channel ul li a {
+    display: block;
+    border-bottom: 1px solid #666;
+    padding: 4px;
+    color: #666
+}
+.dokucss #dw-channel .nav li {
+    float: left;
+    margin: 0
+}
+.dokucss #dw-channel .nav li.last {
+    margin-right: 0
+}
+.dokucss #dw-channel .nav li a,
+.dokucss #dw-channel .resp-tablist li {
+    display: block;
+    padding: 0 25px 10px;
+    color: #6a6a6a;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    text-decoration: none
+}
+.dokucss #dw-channel .resp-tablist li.resp-tablistItem__active,
+.dokucss #dw-channel .resp-tablist li:hover,
+.dokucss #dw-channel li a.current,
+.dokucss #dw-channel li a.current:hover {
+    background-color: #fff!important;
+    border-bottom: 2px solid #b90a29;
+    cursor: pointer
+}
+.dokucss #dw-channel .nav li a:focus,
+.dokucss #dw-channel .nav li a:hover {
+    border-bottom: 2px solid #b90a29
+}
+.dokucss #dw-channel label.lxco {
+    padding: 0;
+    top: 0
+}
+.dokucss #dw-channel .exco-listcard .listcard {
+    float: left;
+    margin: 0 2%;
+    width: 46%
+}
+.dokucss #dw-channel .resp-tablist li {
+    display: inline
+}
+.dokucss .resp-content__active {
+    margin-top: 15px
+}
+.dokucss .padd-dw {
+    padding: 20px 0 0
+}
+.dokucss .saldo-dw {
+    margin: 20px 0
+}
+.dokucss .textsaldo {
+    color: #9a9a9a;
+    font-size: 14px
+}
+.dokucss .saldo {
+    color: #717171;
+    font-size: 40px
+}
+.dokucss .exco-listcard input[type=radio] {
+    display: none
+}
+.dokucss ul.list-tabmenudw li {
+    width: auto
+}
+.dokucss ul.list-tabmenudw li a {
+    display: block
+}
+.dokucss .list-tabmenudw li:last-of-type {
+    min-width: 1px!important;
+    width: 1px!important
+}
+.dokucss .text-tabmenu {
+    display: inline-block
+}
+.dokucss .exco-card .nunmber-cc .title-default {
+    font-size: 18px
+}
+.dokucss .exco-card .default-contab {
+    margin: 0
+}
+.dokucss .exco-listcard {
+    margin: 0;
+    display: block
+}
+.dokucss .exco-listcard .lxco {
+    width: 100%;
+    float: left;
+    transition: all ease .3s;
+    margin-right: 5px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer
+}
+.dokucss .lxco .wrapper-card-ex:after {
+    position: absolute;
+    border-radius: 50px;
+    display: none;
+    width: 25px;
+    height: 25px;
+    background: url(../images/cek.png) center center no-repeat #41dfbe;
+    right: 10px;
+    top: 10px;
+    content: ''
+}
+.dokucss .type-cc,
+.dokucss input[type=radio]:checked+.lxco .wrapper-card-ex:after {
+    display: block
+}
+.dokucss input[type=radio]:checked+.lxco {
+    border: 1px solid #41dfbe
+}
+.dokucss .type-cc {
+    background: url(../images/cc-top.png) no-repeat;
+    height: 30px;
+    margin: 3px 10px;
+    float: left
+}
+.dokucss .visa {
+    background-position: 0 0;
+    width: 60px
+}
+.dokucss .mastercard {
+    background-position: -69px 0;
+    width: 45px
+}
+.dokucss .wrapper-list-excc ul li {
+    background-color: #FFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    width: 48%;
+    border-bottom: 2px solid #E1E1E1;
+    float: left;
+    margin-bottom: 15px
+}
+.dokucss .type-exist input {
+    float: left;
+    margin: 15px 10px 0 12px
+}
+.dokucss .wrapper-card-ex {
+    padding: 5px 0 0
+}
+.dokucss .type-exist {
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 5px
+}
+.dokucss .default-contab {
+    margin-top: 15px;
+    margin-bottom: 25px
+}
+.dokucss .wrapper-cont-cc {
+    background-color: #FAFBFB;
+    border-radius: 0 0 3px 3px;
+    padding: 15px 12px
+}
+.dokucss .title-wcc {
+    color: #959494;
+    font-size: 11px;
+    margin: 5px 0
+}
+.dokucss .validthru {
+    margin: 15px 0 0
+}
+.dokucss .validthru .title-wcc {
+    float: left
+}
+.dokucss .text-tvt {
+    color: #8D8D8D;
+    float: left;
+    font-size: 19px;
+    margin-left: 10px
+}
+.dokucss .marg-right {
+    margin-right: 2%
+}
+.dokucss .note-recur {
+    border-bottom: 1px solid #FFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px
+}
+.dokucss .text-noterecur-newcc {
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 11px;
+    padding-bottom: 4px;
+    width: 94%
+}
+.dokucss .nr-ncc input {
+    float: left
+}
+.dokucss .price-nrncc {
+    font-size: 20px;
+    line-height: 23px
+}
+.dokucss .wrapper-profile ul li span.quan-items {
+    font-size: 16px
+}
+.dokucss .left-title-dbil {
+    float: left
+}
+.dokucss .text-tdbil {
+    border-radius: 3px;
+    margin-top: 7px;
+    padding: 8px 15px
+}
+.dokucss .arrow-detbil {
+    margin-left: 45%
+}
+.dokucss .input-cvv-recur {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0 3px 3px;
+    padding: 10px
+}
+.dokucss .input-cvv-recur input {
+    border: 1px solid #CCC;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%
+}
+.dokucss .text-cvv-recur {
+    background-color: #FFF;
+    border-radius: 3px 3px 0 0;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 10px 20px
+}
+.dokucss .wrapper-cvv-recur {
+    margin-top: 25px
+}
+.dokucss .num-card {
+    color: #717171;
+    font-size: 22px
+}
+.dokucss .img-cardlist {
+    margin-left: 12px
+}
+.dokucss .img-desc {
+    width: 100%
+}
+.dokucss .detail-result ul li,
+.dokucss .option-codevoucher ul li,
+.dokucss .show-points ul li {
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 16px;
+    padding: 13px 0
+}
+.dokucss .detail-result ul li:first-child {
+    padding-top: 0
+}
+.dokucss .detail-result ul li:last-of-type {
+    border: none
+}
+.dokucss .detail-result ul li .fleft,
+.dokucss .text-titledw-promo {
+    color: #6a6a6a;
+    font-size: 16px
+}
+.dokucss .detail-result ul li .fright {
+    color: #8e8e8e
+}
+.dokucss .detail-result ul li .fright.color-one {
+    font-size: 20px
+}
+.dokucss .text-notif-result {
+    font-size: 18px;
+    margin: 6px 0 6px 10px
+}
+.dokucss .title-listpromo {
+    color: #717171
+}
+.dokucss .amount-listpromo {
+    font-size: 20px
+}
+.dokucss .ifusingpromo {
+    padding: 0 10px;
+    margin: 5px 0
+}
+.dokucss .promocontent-dw {
+    display: none
+}
+.dokucss .textva {
+    font-size: 14px;
+    text-align: right
+}
+.dokucss .numva {
+    font-size: 27px
+}
+.dokucss .cmn-toggle {
+    position: absolute;
+    margin-left: -9999px
+}
+.dokucss .cmn-toggle+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.dokucss input.cmn-toggle-round-flat+label {
+    padding: 2px;
+    width: 120px;
+    height: 60px;
+    background-color: #ddd;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+    -webkit-transition: background .4s;
+    -moz-transition: background .4s;
+    -o-transition: background .4s;
+    transition: background .4s
+}
+.dokucss input.cmn-toggle-round-flat+label:after,
+.dokucss input.cmn-toggle-round-flat+label:before {
+    display: block;
+    position: absolute;
+    content: ""
+}
+.dokucss input.cmn-toggle-round-flat+label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #fff;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+    -webkit-transition: background .4s;
+    -moz-transition: background .4s;
+    -o-transition: background .4s;
+    transition: background .4s
+}
+.dokucss input.cmn-toggle-round-flat+label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 52px;
+    background-color: #ddd;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: margin .4s, background .4s;
+    -moz-transition: margin .4s, background .4s;
+    -o-transition: margin .4s, background .4s;
+    transition: margin .4s, background .4s
+}
+.dokucss input.cmn-toggle-round-flat:checked+label {
+    background-color: #41dfbe
+}
+.dokucss input.cmn-toggle-round-flat:checked+label:after {
+    margin-left: 60px;
+    background-color: #41dfbe
+}
+.dokucss .texttoggleform {
+    margin-bottom: 5px;
+    padding-top: 8px
+}
+.dokucss .toogle-medium input.cmn-toggle-round-flat+label::after {
+    width: 27px
+}
+.dokucss .toogle-medium input.cmn-toggle-round-flat+label {
+    width: 70px;
+    height: 30px
+}
+.dokucss .toogle-medium input.cmn-toggle-round-flat:checked+label::after {
+    margin-left: 38px
+}
+.dokucss .on-toggle {
+    font-size: 15px;
+    margin: 7px;
+    position: absolute;
+    color: #41dfbe
+}
+.dokucss .off-toggle {
+    font-size: 14px;
+    margin-left: 40px;
+    color: #BCBCBC
+}
+.dokucss .text-poin {
+    float: left;
+    font-size: 15px;
+    color: #000
+}
+.dokucss .switch {
+    float: right;
+    margin-top: -20px
+}
+.dokucss .show-points {
+    border-radius: 3px;
+    display: block;
+    padding: 15px 0 10px
+}
+.dokucss .left-sp {
+    float: left;
+    font-size: 15px;
+    color: #717171
+}
+.dokucss .right-sp {
+    float: right;
+    font-size: 19px;
+    color: #000
+}
+.dokucss .show-points ul li {
+    padding: 10px 0 3px
+}
+.dokucss .show-points ul li:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0
+}
+.dokucss .show-points ul li:last-of-type .right-sp {
+    font-size: 24px
+}
+.dokucss .show-points ul li:last-of-type .left-sp {
+    margin-top: 4px
+}
+.dokucss .remove-float {
+    float: none
+}
+.dokucss .second-ep {
+    font-size: 14px;
+    color: #717171
+}
+.dokucss .wrapper-installment ul li {
+    background: #F7F7F7;
+    border-radius: 4px;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    width: 27%;
+    position: relative;
+    height: 50px
+}
+.dokucss .title-recur,
+.dokucss .wrapper-installment {
+    margin-top: 15px
+}
+.dokucss .month-installment {
+    font-size: 44px;
+    position: absolute;
+    right: 5px;
+    top: 3px
+}
+.dokucss .text-installment {
+    margin-top: 15px;
+    text-align: right
+}
+.dokucss .installment-con2 {
+    background: #daf0ff;
+    border-radius: 3px;
+    padding: 10px
+}
+.dokucss .note-installment {
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+    padding: 7px 0 5px
+}
+.dokucss .desc {
+    color: #8e8e8e;
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 20px
+}
+.dokucss .text-token {
+    width: 90%
+}
+.dokucss .list-chacode ul li {
+    float: left;
+    text-align: center;
+    width: 33%
+}
+.dokucss .text-chacode {
+    color: #6a6a6a;
+    font-size: 15px;
+    margin-bottom: 10px
+}
+.dokucss .num-chacode {
+    color: #1d2655;
+    font-size: 16px
+}
+.dokucss .list-chacode {
+    padding: 10px 0
+}
+.dokucss .title-recur {
+    font-size: 20px
+}
+.dokucss .recur-select ul.nav li {
+    width: 50%
+}
+.dokucss .recur-select ul#addcc .logo-payment-channel {
+    margin: 0 0 15px
+}
+.dokucss .recur-select ul#addcc .tolltips-cc {
+    right: 10px;
+    top: 66px
+}
+.dokucss .note-text {
+    background: #F1F1F1;
+    border-radius: 3px;
+    margin-top: 25px;
+    padding: 10px
+}
+.dokucss .note-text .text-noterecur-newcc {
+    text-align: justify;
+    color: #525252
+}
+.dokucss .padd-recuredit {
+    padding: 0
+}
+.dokucss .padd-recuredit .exco-listcard .lxco {
+    cursor: auto
+}
+.dokucss #dw-channel ul.exco-listcard li a {
+    border-bottom: medium none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin-right: 9px;
+    margin-top: 3px;
+    padding: 7px 8px 3px
+}
+.dokucss .bg-grad,
+.dokucss .resp-headings,
+.dokucss .resp-tabDrop {
+    display: none
+}
+.dokucss .content-modal .exco-listcard {
+    margin: 0 auto;
+    text-align: left;
+    width: 235px
+}
+.dokucss .bg-grad {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%) rgba(0, 0, 0, 0);
+    height: 40px;
+    position: sticky;
+    width: 100%;
+    z-index: 1000000;
+    bottom: 0
+}
+.dokucss .padd-installment {
+    padding: 5px 20px
+}
+.dokucss .head-textcenter .amount {
+    color: #6a6a6a
+}
+.dokucss .option-codevoucher .promocontent-dw select {
+    margin-top: 6px
+}
+.dokucss .option-codevoucher ul.list-material li:last-of-type {
+    background: #b1ffe4;
+    padding: 10px 0 0
+}
+.dokucss .lastlist-ifp {
+    background: #fff;
+    margin-bottom: 0;
+    padding: 14px 10px
+}
+.dokucss .lastlist-ifp .amount-listpromo {
+    font-size: 25px
+}
+.dokucss .checkbox-custom,
+.dokucss .radio-custom {
+    opacity: 0;
+    position: absolute
+}
+.dokucss .checkbox-custom-label,
+.dokucss .radio-custom-label,
+.dokucss .spinner {
+    position: relative
+}
+.dokucss .checkbox-custom,
+.dokucss .checkbox-custom-label,
+.dokucss .radio-custom,
+.dokucss .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer
+}
+.dokucss .material-form .checkbox-custom+.checkbox-custom-label:before,
+.dokucss .material-form .checkbox-custom+label+.checkbox-custom-label:before,
+.dokucss .material-form .radio-custom+.radio-custom-label:before,
+.dokucss .material-form .radio-custom+label+.radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    margin-right: 10px;
+    text-align: center
+}
+.dokucss .checkbox-custom:checked+.checkbox-custom-label:before,
+.dokucss .checkbox-custom:checked+label+.checkbox-custom-label:before,
+.dokucss .radio-custom:checked+label+.radio-custom-label:before {
+    background: url(../images/cek.png) no-repeat #41dfbe;
+    color: #fff;
+    border-color: #41dfbe
+}
+.dokucss .material-form label.checkbox-custom-label,
+.dokucss .material-form label.radio-custom-label {
+    border-bottom: 0!important
+}
+.dokucss .radio-custom+.radio-custom-label:before,
+.dokucss .radio-custom+label+.radio-custom-label:before {
+    border-radius: 50%
+}
+.dokucss .radio-custom:checked+.radio-custom-label:before,
+.dokucss .radio-custom:checked+label+.radio-custom-label:before {
+    background: url(../images/cek.png) no-repeat #41dfbe;
+    border-color: #41dfbe
+}
+.dokucss .checkbox-custom:disabled+.checkbox-custom-label:before,
+.dokucss .radio-custom:disabled+.radio-custom-label:before {
+    background: #ddd;
+    border-color: #ccc
+}
+.dokucss .option-codevoucher label.radio-custom-label {
+    color: #717171;
+    font-size: 15px;
+    margin: 15px 0 0
+}
+.dokucss .option-codevoucher ul li {
+    padding: 7px 0 0;
+    margin-top: 0
+}
+.dokucss .wrapper-errorpage {
+    text-align: center;
+    color: #b90a29
+}
+.dokucss .iconerror {
+    background: #b90a29;
+    border-radius: 80px;
+    margin-bottom: 15px;
+    padding: 20px
+}
+.dokucss .loading,
+.dokucss .texterror {
+    padding-bottom: 25px
+}
+.dokucss .texterror {
+    font-size: 20px
+}
+.dokucss .loading {
+    font-size: 18px;
+    text-align: center
+}
+.dokucss .spinner {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 25px
+}
+.dokucss .double-bounce1,
+.dokucss .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #bf0227;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    animation: bounce 2s infinite ease-in-out
+}
+.dokucss .double-bounce2 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s
+}
+.dokucss @-webkit-keyframes bounce {
+    0%, 100% {
+        -webkit-transform: scale(0)
+    }
+    50% {
+        -webkit-transform: scale(1)
+    }
+}
+.dokucss @keyframes bounce {
+    0%, 100% {
+        transform: scale(0);
+        -webkit-transform: scale(0)
+    }
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1)
+    }
+}
+.dokucss .tooltip {
+    display: inline;
+    position: relative
+}
+.dokucss .tooltip:hover:after {
+    background: #333;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    bottom: 40px;
+    color: #fff;
+    content: attr(title);
+    left: -180px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 200px;
+    font-size: 12px
+}
+.dokucss .tooltip:hover:before {
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0;
+    bottom: 35px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99
+}
+.dokucss .tolltips-wallet {
+    left: 205px;
+    position: absolute;
+    top: 20px
+}
+.dokucss .tolltips-cc {
+    right: 30px;
+    position: absolute;
+    top: 35px
+}
+.dokucss .validasi {
+    background: #fffaeb;
+    margin: 20px -20px 0;
+    padding: 10px 20px;
+    position: relative
+}
+.dokucss .validasi .styled-input {
+    margin-bottom: 0
+}
+.dokucss .remodal-bg {
+    -webkit-transition: -webkit-filter .2s linear;
+    -moz-transition: -moz-filter .2s linear;
+    -o-transition: -o-filter .2s linear;
+    transition: filter .2s linear
+}
+.dokucss body.remodal_active .remodal-bg {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px)
+}
+.dokucss .remodal-overlay {
+    display: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    text-align: center;
+    opacity: 0;
+    background: rgba(33, 36, 46, .95);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#EE21242E, endColorstr=#EE21242E);
+    zoom: 1;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear
+}
+.dokucss .remodal,
+.dokucss .remodal-overlay:after {
+    display: inline-block;
+    vertical-align: middle
+}
+.dokucss .remodal-overlay>* {
+    -webkit-transform: translateZ(0)
+}
+.dokucss .remodal-overlay:after {
+    height: 100%;
+    margin-left: -.05em;
+    content: ''
+}
+.dokucss body.remodal_active .remodal-overlay {
+    opacity: 1
+}
+.dokucss .remodal {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    min-height: auto;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    background-clip: padding-box;
+    color: #8e8e8e;
+    -webkit-box-shadow: 0 0 8px #171a24;
+    box-shadow: 0 0 8px #171a24;
+    border-radius: 3px;
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -o-transform: scale(.95);
+    transform: scale(.95);
+    -webkit-transition: -webkit-transform .2s linear;
+    -moz-transition: -moz-transform .2s linear;
+    -o-transition: -o-transform .2s linear;
+    transition: transform .2s linear
+}
+.dokucss body.remodal_active .remodal {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1)
+}
+.dokucss .title-modal {
+    border-bottom: 1px solid #f4f4f4;
+    margin: 0 -15px;
+    padding: 0 15px 10px;
+    text-align: left
+}
+.dokucss .content-modal {
+    margin: 20px 0
+}
+.dokucss .resmall {
+    width: 30%
+}
+.dokucss .italiclink {
+    font-style: italic;
+    text-decoration: underline
+}
+.dokucss #dw-channel .nav li a:focus,
+.dokucss #dw-channel .nav li a:hover,
+.dokucss #dw-channel .resp-tablist li.resp-tablistItem__active,
+.dokucss #dw-channel .resp-tablist li:hover,
+.dokucss #dw-channel li a.current,
+.dokucss #dw-channel li a.current:hover,
+.dokucss .color-one,
+.dokucss .detail-result ul li .fright.color-one {
+    color: #b90a29
+}
+.dokucss .color-two,
+.dokucss .doku-wrap .color-two {
+    color: #5d5d5d
+}
+.dokucss .color-border {
+    border-color: #f4f4f4
+}
+.dokucss .success {
+    color: #11a88a
+}
+.dokucss .fail {
+    color: #b70000
+}
+.dokucss .has-error input,
+.dokucss .styled-input input.cc-exp.valid,
+.dokucss .styled-input input.error,
+.dokucss .styled-input input.unknown {
+    border: 1px solid red
+}
+.dokucss #dw-channel ul.exco-listcard li a {
+    background: #b90a29
+}
+.dokucss @media screen and (max-width: 650px) {
+    .default-width {
+        width: 95%
+    }
+    .padd-default {
+        padding: 10px
+    }
+    .left-head img {
+        width: 100px
+    }
+    .text-totalpay {
+        font-size: 10px
+    }
+    .amount {
+        font-size: 25px
+    }
+    .wrapper-select {
+        width: 100%
+    }
+    .select-payment-channel select,
+    .wrapper-select select {
+        width: 105%
+    }
+    .list-chacode ul li,
+    .mobile-nofloat .fleft,
+    .mobile-nofloat .fright {
+        float: none;
+        width: 100%
+    }
+    .right-paychan {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 5px 0 10px
+    }
+    .styled-input input,
+    .styled-input input.identified.valid,
+    .styled-input input.valid,
+    .styled-input select {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0
+    }
+    .styled-input label {
+        left: 5px
+    }
+    .tolltips-cc {
+        top: 22%;
+        right: 11px
+    }
+    .has-error input,
+    .styled-input input.cc-exp.valid,
+    .styled-input input.error,
+    .styled-input input.unknown {
+        border: none;
+        border-bottom: 1px solid red
+    }
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label {
+        padding: 0
+    }
+    .list-chacode ul li {
+        text-align: left;
+        border-bottom: 1px solid #f4f4f4;
+        padding: 8px 0
+    }
+    .list-chacode .text-chacode {
+        width: 50%;
+        float: left;
+        margin-bottom: 0
+    }
+    .list-chacode .num-chacode {
+        float: right
+    }
+    .text-token {
+        width: 85%;
+        margin-bottom: 5px
+    }
+    .validasi {
+        margin: 20px -10px;
+        padding: 10px
+    }
+    .validasi .width50 {
+        float: none;
+        width: 100%
+    }
+    .validasi .styled-input input {
+        border: 1px solid #ccc;
+        border-radius: 3px
+    }
+    .tolltips-wallet {
+        left: auto;
+        right: 20px
+    }
+    .remodal {
+        width: 90%
+    }
+    .mm,
+    .resp-tablist {
+        display: none
+    }
+    .resp-tabDrop {
+        display: block
+    }
+    #dw-channel .list-wrap,
+    .resp-content__active {
+        margin: 0;
+        padding: 15px 0
+    }
+    .avatar-dw {
+        position: absolute;
+        right: 10px;
+        text-align: right;
+        top: -55px;
+        width: 180px
+    }
+    .avatar-dw .nameuser {
+        float: right
+    }
+    .selectdw {
+        border-bottom: 1px solid #f4f4f4;
+        margin: 0 -10px;
+        padding: 0 10px 10px
+    }
+    .toogle-medium input.cmn-toggle-round-flat:checked+label::after {
+        margin-left: 34px
+    }
+    .img-other {
+        width: 100px
+    }
+    .padd-installment {
+        padding: 5px 10px
+    }
+    .switch {
+        margin-top: -13px
+    }
+    .head-textcenter .fleft,
+    .head-textcenter .fright {
+        float: none
+    }
+    .head-textcenter .right-head {
+        border-bottom: 1px solid #f4f4f4;
+        border-top: 1px solid #f4f4f4;
+        clear: both;
+        float: none;
+        margin: 10px -10px 0;
+        padding: 10px 0;
+        text-align: center
+    }
+    .head-textcenter .amount {
+        font-size: 20px;
+        margin-top: 0
+    }
+    #dw-channel .nav.navtwo li a {
+        font-size: 14px;
+        padding: 0 10px 10px
+    }
+}
+.dokucss @media screen and (max-width: 360px) {
+    .avatar-dw img {
+        display: none
+    }
+    #dw-channel .exco-listcard .listcard {
+        float: none;
+        margin: 0 auto 15px;
+        width: 230px
+    }
+    .wrapper-listcard {
+        height: 180px;
+        overflow: scroll;
+        position: relative
+    }
+    .bg-grad {
+        display: block
+    }
+    .bg-grad.fortop {
+        top: 0;
+        background: linear-gradient(to top, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%) rgba(0, 0, 0, 0)
+    }
+    .show-points ul li:last-of-type .left-sp {
+        text-align: left;
+        width: 135px
+    }
+    .wrapper-installment ul li {
+        width: 44%
+    }
+    .text-noterecur-newcc {
+        width: 90%;
+        font-size: 12px;
+        line-height: 14px
+    }
+    .option-codevoucher ul li .fleft,
+    .option-codevoucher ul li .fright {
+        float: none
+    }
+    .option-codevoucher ul li {
+        padding-bottom: 10px
+    }
+    .title-listpromo {
+        margin-bottom: 5px
+    }
+    .resultpage .head .left-head.fleft,
+    .resultpage .head .right-head.fright,
+    .resultpage .head .right-head.fright .fleft.text-notif-result,
+    .resultpage .head .right-head.fright img {
+        float: none;
+        text-align: center
+    }
+    .resultpage .head .right-head.fright {
+        margin-top: 10px
+    }
+    .resultpage .head .right-head.fright .textva {
+        text-align: center
+    }
+}
+.dokucss .doku-wrap aside,
+.dokucss .doku-wrap blockquote,
+.dokucss .doku-wrap body,
+.dokucss .doku-wrap caption,
+.dokucss .doku-wrap details,
+.dokucss .doku-wrap div,
+.dokucss .doku-wrap fieldset,
+.dokucss .doku-wrap figcaption,
+.dokucss .doku-wrap figure,
+.dokucss .doku-wrap footer,
+.dokucss .doku-wrap form,
+.dokucss .doku-wrap h1,
+.dokucss .doku-wrap h2,
+.dokucss .doku-wrap h3,
+.dokucss .doku-wrap h4,
+.dokucss .doku-wrap h5,
+.dokucss .doku-wrap h6,
+.dokucss .doku-wrap header,
+.dokucss .doku-wrap html,
+.dokucss .doku-wrap input,
+.dokucss .doku-wrap label,
+.dokucss .doku-wrap legend,
+.dokucss .doku-wrap li,
+.dokucss .doku-wrap menu,
+.dokucss .doku-wrap nav,
+.dokucss .doku-wrap ol,
+.dokucss .doku-wrap p,
+.dokucss .doku-wrap section,
+.dokucss .doku-wrap span,
+.dokucss .doku-wrap summary,
+.dokucss .doku-wrap ul {
+    margin: 0;
+    padding: 0;
+    font-family: din-reg, arial
+}
+.dokucss .doku-wrap aside,
+.dokucss .doku-wrap details,
+.dokucss .doku-wrap figcaption,
+.dokucss .doku-wrap figure,
+.dokucss .doku-wrap footer,
+.dokucss .doku-wrap header,
+.dokucss .doku-wrap menu,
+.dokucss .doku-wrap nav,
+.dokucss .doku-wrap section {
+    display: block
+}
+.dokucss .doku-wrap .default-width {
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 0 12px #f2f2f2;
+    margin: 0 auto;
+    width: 500px
+}
+.dokucss .doku-wrap .padd-default {
+    padding: 20px;
+    position: relative
+}
+.dokucss .doku-wrap .fleft {
+    float: left
+}
+.dokucss .doku-wrap img {
+    border: none
+}
+.dokucss .doku-wrap .right-head {
+    font-family: din-reg
+}
+.dokucss .doku-wrap .fright {
+    float: right
+}
+.dokucss .doku-wrap .text-totalpay {
+    font-size: 11px;
+    text-align: right
+}
+.dokucss .doku-wrap #dw-channel .nav li a:focus,
+.dokucss .doku-wrap #dw-channel .nav li a:hover,
+.dokucss .doku-wrap #dw-channel .resp-tablist li.resp-tablistItem__active,
+.dokucss .doku-wrap #dw-channel .resp-tablist li:hover,
+.dokucss .doku-wrap #dw-channel li a.current,
+.dokucss .doku-wrap #dw-channel li a.current:hover,
+.dokucss .doku-wrap .color-one,
+.dokucss .doku-wrap .detail-result ul li .fright.color-one {
+    color: #b90a29
+}
+.dokucss .doku-wrap .amount {
+    font-size: 34px
+}
+.dokucss .doku-wrap .color-border {
+    border-color: #f4f4f4!important
+}
+.dokucss .doku-wrap .select-payment-channel {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 12px 20px
+}
+.dokucss .doku-wrap .dokuwallet {
+    background-position: -110px 0!important;
+    width: 94px
+}
+.dokucss .doku-wrap .logo-payment-channel {
+    background: url(../images/logo-payment.png) no-repeat;
+    height: 30px;
+    display: inline-block
+}
+.dokucss .doku-wrap .padd-dw {
+    padding: 20px 0 0
+}
+.dokucss .doku-wrap .avatar-dw {
+    top: -53px!important
+}
+.dokucss .doku-wrap .right-paychan {
+    position: absolute;
+    right: 20px;
+    top: -40px
+}
+.dokucss .doku-wrap .nameuser {
+    height: 20px;
+    margin: 12px 0 0 10px;
+    max-width: 120px;
+    overflow: hidden;
+    text-align: right
+}
+.dokucss .doku-wrap ol,
+.dokucss .doku-wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: auto
+}
+.dokucss .doku-wrap #dw-channel .resp-tablist li.resp-tablistItem__active,
+.dokucss .doku-wrap #dw-channel .resp-tablist li:hover,
+.dokucss .doku-wrap #dw-channel li a.current,
+.dokucss .doku-wrap #dw-channel li a.current:hover {
+    background-color: #fff!important;
+    border-bottom: 2px solid #b90a29;
+    cursor: pointer
+}
+.dokucss .doku-wrap #dw-channel .resp-tablist li {
+    display: inline
+}
+.dokucss .doku-wrap .promocontent-dw,
+.dokucss .doku-wrap .resp-headings,
+.dokucss .doku-wrap .resp-tabDrop {
+    display: none
+}
+.dokucss .doku-wrap #dw-channel .nav li a,
+.dokucss .doku-wrap #dw-channel .resp-tablist li {
+    padding: 0 25px 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    color: #6a6a6a
+}
+.dokucss .doku-wrap .content-payment-channel ul li {
+    margin: 5px 0 0
+}
+.dokucss .doku-wrap .styled-select,
+.dokucss .doku-wrap .wrapper-select {
+    background: url(../images/down_arrow_select.png) right center no-repeat;
+    overflow: hidden;
+    width: 170px
+}
+.dokucss .doku-wrap .styled-select select,
+.dokucss .doku-wrap select {
+    -webkit-appearance: none;
+    background: 0 0;
+    border: 0;
+    overflow: hidden;
+    width: 190px
+}
+.dokucss .doku-wrap #select-paymentchannel option,
+.dokucss .doku-wrap .resp-tabDrop option {
+    font-size: 14px
+}
+.dokucss .doku-wrap .resp-content__active {
+    margin-top: 15px
+}
+.dokucss .doku-wrap #dw-channel .list-wrap,
+.dokucss .doku-wrap .resp-content__active {
+    padding: 20px;
+    margin: 0
+}
+.dokucss .doku-wrap .saldo-dw {
+    margin: 20px 0
+}
+.dokucss .doku-wrap .textsaldo {
+    color: #9a9a9a;
+    font-size: 14px
+}
+.dokucss .doku-wrap .saldo {
+    color: #717171;
+    font-size: 30px
+}
+.dokucss .doku-wrap .option-codevoucher ul li {
+    padding: 7px 0 0;
+    margin-top: 0
+}
+.dokucss .doku-wrap .detail-result ul li,
+.dokucss .doku-wrap .option-codevoucher ul li,
+.dokucss .doku-wrap .show-points ul li {
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 16px
+}
+.dokucss .doku-wrap .checkbox-custom,
+.dokucss .doku-wrap .checkbox-custom-label,
+.dokucss .doku-wrap .radio-custom,
+.dokucss .doku-wrap .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer
+}
+.dokucss .doku-wrap .radio-custom+.radio-custom-label::before,
+.dokucss .doku-wrap .radio-custom+label+.radio-custom-label::before {
+    border-radius: 50%
+}
+.dokucss .doku-wrap .checkbox-custom,
+.dokucss .doku-wrap .radio-custom {
+    opacity: 0;
+    position: absolute
+}
+.dokucss .doku-wrap input {
+    border: none
+}
+.dokucss .doku-wrap .option-codevoucher label.radio-custom-label {
+    color: #717171;
+    font-size: 15px;
+    margin: 15px 0 0
+}
+.dokucss .doku-wrap .material-form label.checkbox-custom-label,
+.dokucss .doku-wrap .material-form label.radio-custom-label {
+    border-bottom: 0!important
+}
+.dokucss .doku-wrap .checkbox-custom-label,
+.dokucss .doku-wrap .radio-custom-label {
+    position: relative
+}
+.dokucss .doku-wrap .material-form .checkbox-custom+.checkbox-custom-label::before,
+.dokucss .doku-wrap .material-form .checkbox-custom+label+.checkbox-custom-label::before,
+.dokucss .doku-wrap .material-form .radio-custom+.radio-custom-label::before,
+.dokucss .doku-wrap .material-form .radio-custom+label+.radio-custom-label::before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    margin-right: 10px;
+    text-align: center
+}
+.dokucss .doku-wrap .option-codevoucher .promocontent-dw select {
+    margin-top: 6px
+}
+.dokucss .doku-wrap .promocontent-dw select,
+.dokucss .doku-wrap .select-payment-channel select,
+.dokucss .doku-wrap select.resp-tabDrop {
+    color: #6a6a6a;
+    font-size: 18px;
+    padding: 0 15px 0 0;
+    font-family: din-reg
+}
+.dokucss .doku-wrap .ifusingpromo {
+    padding: 0 10px;
+    margin: 5px 0
+}
+.dokucss .doku-wrap .title-listpromo {
+    color: #717171
+}
+.dokucss .doku-wrap .amount-listpromo {
+    font-size: 20px
+}
+.dokucss .doku-wrap .lastlist-ifp {
+    background: #fff;
+    margin-bottom: 0;
+    padding: 14px 10px
+}
+.dokucss .doku-wrap .lastlist-ifp .amount-listpromo {
+    font-size: 25px
+}
+.dokucss .doku-wrap .validasi {
+    background: #fffaeb;
+    margin: 20px -20px 0;
+    padding: 10px 20px;
+    position: relative
+}
+.dokucss .doku-wrap .default-btn {
+    background: #fff;
+    border: 1px solid #b90a29;
+    border-radius: 3px;
+    color: #b90a29;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 14px 10px;
+    width: 100%;
+    cursor: pointer;
+    font-family: din-reg, arial
+}
+.dokucss .doku-wrap .exco-listcard {
+    margin: 0;
+    display: block
+}
+.dokucss .doku-wrap .readonlycase~label,
+.dokucss .doku-wrap input:focus~label,
+.dokucss .doku-wrap input:valid~label,
+.dokucss .doku-wrap textarea:focus~label,
+.dokucss .doku-wrap textarea:valid~label {
+    font-size: .75em;
+    color: #b90a29;
+    top: -13px;
+    -webkit-transition: all 125ms ease;
+    transition: all 125ms ease;
+    padding: 0 5px;
+    background: #fff
+}
+.dokucss .doku-wrap .validasi .styled-input {
+    margin-bottom: 0
+}
+.dokucss .doku-wrap .styled-input .readonlycase~label {
+    color: #b90a29;
+    font-size: .75em;
+    top: -13px
+}
+.dokucss .doku-wrap .styled-input {
+    position: relative;
+    margin-bottom: 15px
+}
+.dokucss .doku-wrap .width50 {
+    width: 49%
+}
+.dokucss .doku-wrap .styled-input input,
+.dokucss .doku-wrap .styled-input input.identified.valid,
+.dokucss .doku-wrap .styled-input input.valid,
+.dokucss .doku-wrap .styled-input select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 40px;
+    padding: 0 3%;
+    width: 93%;
+    font-family: din-reg, arial;
+    font-size: 15px
+}
+.dokucss .doku-wrap .styled-input label {
+    color: #999;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    pointer-events: none;
+    font-size: 14px
+}
+.dokucss .doku-wrap .tolltips-wallet {
+    left: 205px;
+    position: absolute!important;
+    top: 20px
+}
+.dokucss .doku-wrap .tooltip {
+    display: inline;
+    position: relative
+}
+.dokucss .doku-wrap #dw-channel .exco-listcard .listcard {
+    float: left;
+    margin: 0 2%;
+    width: 46%
+}
+.dokucss .doku-wrap .exco-listcard input[type=radio] {
+    display: none
+}
+.dokucss .doku-wrap #dw-channel label.lxco {
+    padding: 0;
+    top: 0
+}
+.dokucss .doku-wrap input[type=radio]:checked+.lxco {
+    border: 1px solid #41dfbe
+}
+.dokucss .doku-wrap .exco-listcard .lxco {
+    width: 100%;
+    float: left;
+    transition: all ease .3s;
+    margin-right: 5px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer
+}
+.dokucss .doku-wrap .wrapper-card-ex {
+    padding: 5px 0 0
+}
+.dokucss .doku-wrap .type-exist {
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 5px
+}
+.dokucss .doku-wrap .type-cc {
+    background: url(../images/cc-top.png) no-repeat;
+    display: block;
+    height: 30px;
+    margin: 3px 10px;
+    float: left
+}
+.dokucss .doku-wrap .wrapper-cont-cc {
+    background-color: #FAFBFB;
+    border-radius: 0 0 3px 3px;
+    padding: 15px 12px
+}
+.dokucss .doku-wrap .title-wcc {
+    color: #959494;
+    font-size: 11px;
+    margin: 5px 0
+}
+.dokucss .doku-wrap .font-reg {
+    font-family: din-reg, arial
+}
+.dokucss .doku-wrap .num-card {
+    color: #717171;
+    font-size: 22px
+}
+.dokucss .doku-wrap input[type=radio]:checked+.lxco .wrapper-card-ex::after {
+    display: block
+}
+.dokucss .doku-wrap .lxco .wrapper-card-ex::after {
+    position: absolute;
+    border-radius: 50px;
+    display: none;
+    width: 25px;
+    height: 25px;
+    background: url(../images/cek.png) center center no-repeat #41dfbe;
+    right: 10px;
+    top: 10px;
+    content: ''
+}
+.dokucss .doku-wrap .bg-grad {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%) rgba(0, 0, 0, 0);
+    height: 40px;
+    position: sticky;
+    width: 100%;
+    z-index: 1000000;
+    display: none;
+    bottom: 0
+}
+.dokucss .doku-wrap .footer {
+    color: #a0a0a0;
+    font-size: 13px;
+    margin-top: 25px;
+    text-align: center
+}
+.dokucss .doku-wrap .radio-custom:checked+.radio-custom-label::before,
+.dokucss .doku-wrap .radio-custom:checked+label+.radio-custom-label::before {
+    background: url(../images/cek.png) no-repeat #41dfbe;
+    border-color: #41dfbe
+}
+.dokucss .doku-wrap .width60 {
+    width: 68%
+}
+.dokucss .doku-wrap .width30 {
+    width: 30%
+}
+.dokucss .doku-wrap .visa {
+    background-position: 0 0;
+    width: 60px
+}
+.dokucss .doku-wrap .mastercard {
+    background-position: -69px 0;
+    width: 45px
+}
+.dokucss .doku-wrap .has-error input,
+.dokucss .doku-wrap .styled-input input.cc-exp.valid,
+.dokucss .doku-wrap .styled-input input.error,
+.dokucss .doku-wrap .styled-input input.unknown {
+    border: 1px solid red
+}
+
+.dokucss .left-head.fleft img{
+    content:url("http://staging.doku.com/doku-js/assets/images/logo-merchant1.png");
+}
+.dokucss .tooltip.tolltips-cc span img{
+    content:url("http://staging.doku.com/doku-js/assets/images/icon-help.png");
+    margin-right: -20px !important;
+}
+.dokucss .footer img{
+    content:url("http://staging.doku.com/doku-js/assets/images/logo-merchant1.png");
+}
+.dokucss .right-head.fright.success img{
+    content:url("http://staging.doku.com/doku-js/assets/images/icon-result-success.png");
+}
